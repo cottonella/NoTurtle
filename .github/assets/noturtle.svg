@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="A green turtle crossed out by a red no-entry sign">
+  <defs>
+    <clipPath id="shell">
+      <path d="M36 170C36 104 76 74 120 74S204 104 204 170Z"/>
+    </clipPath>
+  </defs>
+  <!-- sign background -->
+  <circle cx="128" cy="128" r="112" fill="#fff"/>
+  <!-- the turtle, looking surprised about what is about to happen -->
+  <g transform="translate(128 132) scale(0.75) translate(-128 -140)" stroke="#2b5e33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 168L14 177L40 184Z" fill="#8fd27a"/>
+    <rect x="56" y="166" width="34" height="40" rx="15" fill="#8fd27a"/>
+    <rect x="150" y="166" width="34" height="40" rx="15" fill="#8fd27a"/>
+    <rect x="182" y="138" width="30" height="40" rx="14" fill="#8fd27a"/>
+    <path d="M36 170C36 104 76 74 120 74S204 104 204 170Z" fill="#62b552"/>
+    <g clip-path="url(#shell)" fill="none" stroke-width="5">
+      <path d="M120 92L146 107V137L120 152L94 137V107Z" fill="#7fca6a"/>
+      <path d="M94 107L46 92M94 137L30 152M146 107L194 92M146 137L210 152M120 92V60M120 152V185"/>
+    </g>
+    <path d="M36 170C36 104 76 74 120 74S204 104 204 170Z" fill="none"/>
+    <rect x="28" y="160" width="184" height="22" rx="11" fill="#4c9a42"/>
+    <circle cx="214" cy="136" r="28" fill="#8fd27a"/>
+    <circle cx="222" cy="128" r="9" fill="#fff" stroke-width="3"/>
+    <circle cx="225" cy="129" r="4.5" fill="#1f2a20" stroke="none"/>
+    <circle cx="226.8" cy="126.6" r="1.6" fill="#fff" stroke="none"/>
+    <ellipse cx="231" cy="149" rx="3.6" ry="4.6" fill="#2b5e33" stroke="none"/>
+    <ellipse cx="208" cy="148" rx="6" ry="3.5" fill="#ff8a80" fill-opacity="0.6" stroke="none"/>
+  </g>
+  <!-- the sign: slash over the turtle, then the ring on top of the slash ends -->
+  <path d="M52 52L204 204" stroke="#e53935" stroke-width="22"/>
+  <circle cx="128" cy="128" r="108" fill="none" stroke="#e53935" stroke-width="22"/>
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#8e1c1c" stroke-width="2.5"/>
+</svg>
